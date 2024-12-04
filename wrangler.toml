@@ -1,0 +1,13 @@
+name = "ballerz-api"
+main = "dist/worker.js"
+compatibility_date = "2024-12-04"
+
+[[kv_namespaces]]
+binding = "BALLER" # Matches the script's KVNamespace
+id = "ec2bd233d0b14daaa6fa8b9b9df285b0"
+
+[observability.logs]
+enabled = true
+
+
+
