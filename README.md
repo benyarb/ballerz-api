@@ -2,17 +2,20 @@
 
 Simple REST API in 2 files.
 
-## worker
-a cloudflare worker in TS that accesses a KV store
 
+## worker
 [src/index.ts](https://github.com/benyarb/ballerz-api/blob/main/src/index.ts)
 
+a cloudflare worker in TS that accesses a KV store
+
 ## data
+[data/ballerKV.json](https://github.com/benyarb/ballerz-api/blob/main/data/ballerKV.json)
+
 - metadata for all ~10k Ballerz
 - normalized from onchain/gaia/rayvin/community sheets
 - formatted into KV pairs to upsert to cloudflare KV store
 
-[data/ballerKV.json](https://github.com/benyarb/ballerz-api/blob/main/data/ballerKV.json)
+
 
 example:
 ```
