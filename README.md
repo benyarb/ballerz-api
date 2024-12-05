@@ -2,6 +2,8 @@
 
 Simple REST API in 2 files.
 
+Example URL: [https://ballerz.cloud/baller/7562](https://ballerz.cloud/baller/7562)
+
 
 ## worker
 [src/index.ts](https://github.com/benyarb/ballerz-rest/blob/main/src/index.ts)
