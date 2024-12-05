@@ -36,3 +36,6 @@ example:
 ## run 
 `npm run put` to upsert the KV data
 https://github.com/benyarb/ballerz-api/blob/5208e09c4ab2308be00d02c8e69aa986da6f9e8c/package.json#L6
+
+## deploy
+`wrangler deploy`
