@@ -50,18 +50,5 @@ export default {
       return new Response('Internal Server Error', { status: 500 });
     }
 	},
-};
+} satisfies ExportedHandler<Env>;
 
-// Register an event listener
-addEventListener('fetch', (event: FetchEvent) => {
-	event.respondWith(
-		(async (): Promise<Response> => {
-			try {
-				const response: Response = await fetch(event.request);
-				return response;
-			} catch (err: unknown) {
-				return new Response('Internal Server Error', { status: 500 });
-			}
-		})()
-	);
-});
