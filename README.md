@@ -6,7 +6,7 @@ Simple REST API in 2 files.
 ## worker
 [src/index.ts](https://github.com/benyarb/ballerz-api/blob/main/src/index.ts)
 
-a cloudflare worker in TS that accesses a KV store
+a cloudflare worker in TS that takes a url `https://ballerz.cloud/baller/<id>` and returns data about ballerz `<id>` from a [KV store](https://developers.cloudflare.com/kv/)
 
 ## data
 [data/ballerKV.json](https://github.com/benyarb/ballerz-api/blob/main/data/ballerKV.json)
