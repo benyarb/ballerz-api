@@ -12,7 +12,7 @@ a cloudflare worker in TS that accesses a KV store
 - normalized from onchain/gaia/rayvin/community sheets
 - formatted into KV pairs to upsert to cloudflare KV store
 
-data/ballerKV.json
+[data/ballerKV.json](https://github.com/benyarb/ballerz-api/blob/main/data/ballerKV.json)
 
 example:
 ```
