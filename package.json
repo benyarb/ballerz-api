@@ -3,7 +3,6 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "build": "esbuild src/index.ts --bundle --outfile=dist/worker.js",
     "put": "wrangler kv:bulk put --namespace-id ec2bd233d0b14daaa6fa8b9b9df285b0 ./data/ballerKV.json",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
